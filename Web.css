@@ -1,0 +1,519 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear:both;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+header{
+	background-color: #ec715f;
+	height: 70px;
+}
+
+
+
+.headermain{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+
+
+.navi{
+	float: right;
+	line-height: 70px;
+}
+
+
+.nav-list{
+	text-align: left;
+	display: inline-block;
+}
+
+.nav-list-item{
+	font-size: 16px;
+	display: inline-block;
+	padding: 0 30px;
+}
+
+.setup{
+	color: #FAFAFA;
+}
+
+.main-visual{
+	width: 100%;
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.main-visual-content{
+	text-align: center;
+	padding-top: 200px;
+	color: #FAFAFA;
+}
+
+.title{
+	font-size: 64px;
+	padding-bottom: 10px;
+}
+
+.subtitle{
+	font-size: 20px;
+}
+
+#portfolio{
+	background-color: #ECEFF1;
+	text-align: center;
+	padding: 90px 0;
+}
+
+.portfolio-main{
+
+}
+
+.portfolio-main-text{
+	font-size: 32px;
+}
+
+.portfolio-main-text::after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 70px;
+	background: #EC715F;
+	margin: 8px auto 30px auto;
+}
+
+.portfolio-sub-text{
+	padding-bottom: 30px;
+}
+
+.portfolio-main-image{
+	width: 920px;
+	margin: 0 auto;
+}
+
+.portfolio-image{
+	width: 300px;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+	float: left;
+}
+
+.portfolio-image:nth-child(1) {
+  background-image: url(img/sketch.jpg);
+  margin:0 10px 10px 0;
+}
+.portfolio-image:nth-child(2) {
+  background-image: url(img/websuku.png);
+  margin:0 10px 10px 0;
+}
+.portfolio-image:nth-child(3) {
+  background-image: url(img/write.jpg);
+  margin-bottom: 10px;
+}
+.portfolio-image:nth-child(4) {
+  background-image: url(img/webcamp.png);
+  margin-right:10px;
+}
+.portfolio-image:nth-child(5) {
+  background-image: url(img/talk.jpg);
+ margin-right: 10px;
+}
+.portfolio-image:nth-child(6) {
+  background-image: url(img/webcamp-mother.png);
+}
+
+#feature{
+	padding:90px 0;
+	text-align: center;
+}
+
+.feature-main{
+	width: 980px;
+	margin:0 auto;
+}
+
+.feature-main-text{
+	font-size: 32px;
+}
+
+.feature-main-text::after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 70px;
+	background: #EC715F;
+	margin: 8px auto 30px auto;
+}
+
+.feature-sub-text{
+	padding-bottom:30px;
+}
+
+.feature-sub-main{
+	width: 320px;
+	float: left;
+}
+.feature-sub-main1{
+	padding-right: 10px;
+}
+
+
+.object{
+	font-size: 60px;
+}
+
+
+
+
+.feature-title{
+	font-size: 20px;
+	padding: 10px
+}
+
+#profile{
+	background-color: #ECEFF1;
+	text-align: center;
+	padding: 90px 0;
+}
+
+.profile-main{
+	width: 1024px;
+	margin:0 auto;
+}
+
+.profile-main-text{
+	font-size: 32px;
+}
+
+.profile-main-text::after{
+	content: "";
+	display: block;
+	height: 3px;
+	width: 70px;
+	background-color: #EC715F;
+	margin:8px auto 30px auto;
+}
+
+.profile-sub-text{
+	padding-bottom: 30px;
+}
+
+.box{
+	width: 512px;
+	float: left;
+}
+.box-add{
+	text-align: left;
+}
+
+.profile-image{
+	width: 250px;
+	height: 250px;
+	background-image: url(img/my-icon.jpg);
+	border-radius: 150px;
+	margin: 0 auto;
+}
+
+.box-title{
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+
+.box-title-add{
+	padding-top: 20px;
+}
+
+#contact{
+	text-align: center;
+	padding: 90px 0;
+}
+
+.contact-main{
+	width: 800px;
+	margin: 0 auto;
+}
+
+.contact-main-text{
+	font-size: 32px;
+
+}
+
+.contact-main-text::after{
+	content: "";
+	display: block;
+	height: 3px;
+	width: 70px;
+	background-color: #EC715F;
+	margin:8px auto 30px auto;
+}
+
+.contact-sub-text{
+	padding-bottom: 30px;
+}
+
+.contact-box{
+	width: 400px;
+	text-align: center;
+	float: left;
+}
+
+
+.contact-adress{
+	display: inline-block;
+	text-align: left;
+}
+
+.text{
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+.sub-text{
+	text-decoration: underline;
+}
+
+.sub-text1
+{
+	padding-bottom: 20px;
+}
+
+.contact-sns{
+	width: 50%;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.icon{
+	height: 50px;
+}
+
+.contact-object{
+	font-size: 50px;
+	float: left;
+}
+
+.contact-object-add{
+	padding:0 20px;
+}
+
+footer{
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	line-height: 60px;
+	background-color:#EC715F;
+	}
+
+	.footer-text{
+	  color: #FAFAFA;
+	}
+
+	@media screen and (max-width: 767px) {
+		body{
+			padding: 0 5px;
+			width: 100%;
+		}
+
+		header{
+			height: 50px;
+		}
+
+
+       .logo{
+       	height: 50px;
+       }
+
+       .navi{
+	   	display: none;
+		}
+
+		.headermain{
+			width: 90%;
+		}
+
+		#navToggle { /*通常時は非表示にしておきます*/
+			border: solid 1px white;
+			height: 40px;
+			width:40px;
+    		position:absolute; /*bodyに対しての絶対位置指定です*/
+    		top: 5px;
+    		right: 45px;
+    		cursor:pointer}
+		#navToggle span {
+    	display:block;
+    	width:60%;
+    	border-bottom:solid 2px white;
+    	-webkit-transition: .35s ease-in-out;
+    	-moz-transition: .35s ease-in-out;
+    	transition: .35s ease-in-out}
+		#navToggle span:nth-child(1) {
+			top:7px;
+			margin: 10px auto 5px auto;
+		}
+		#navToggle span:nth-child(2) {
+			top:17px;
+			margin: 0px auto;
+		}
+		#navToggle span:nth-child(3) {
+			top:28px;
+			margin: 5px auto;
+		}
+
+		.main-visual{
+			background-image: url(img/code.png);
+			background-size: cover;
+			background-position: center;
+		}
+
+		.main-visual-content{
+			padding-top: 0;
+		}
+
+
+		.title{
+			font-size: 40px;
+			padding-top: 200px;
+		}
+		.subtitle{
+			font-size: 18px;
+		}
+
+		.feature-sub-title{
+			padding-bottom: 10px;
+		}
+
+		.portfolio-main{
+			width: 90%;
+			margin: 0 auto;
+		}
+
+
+		.portfolio-main-image{
+			width: 90%;
+		}
+
+		.portfolio-image:nth-child(1) {
+		 background-image: url(img/sketch.jpg);
+		 display: none;
+		}
+		.portfolio-image:nth-child(2) {
+  		background-image: url(img/websuku.png);
+  		width: 300px;
+  		height: 250px;
+  		margin: 0 auto;
+  		margin-bottom: 10px;
+  		float: none;
+		}
+		.portfolio-image:nth-child(3) {
+  		background-image: url(img/write.jpg);
+  		display: none;
+		}
+		.portfolio-image:nth-child(4) {
+  		background-image: url(img/webcamp.png);
+  		width: 300px;
+  		height: 250px;
+  		margin: 0 auto;
+  		margin-bottom: 10px;
+  		float: none;
+		}
+		.portfolio-image:nth-child(5) {
+  		background-image: url(img/talk.jpg);
+ 		display: none;
+		}
+		.portfolio-image:nth-child(6) {
+  		background-image: url(img/webcamp-mother.png);
+  		width: 300px;
+  		height: 250px;
+  		margin: 0 auto;
+  		float: none;
+		}
+		/*backgroundカラーが6番目から表示されない。featureと被ってしまう。確認したがdivの中にちゃんと入ってる。何故？*/
+
+		.feature-main{
+			width: 90%;
+		}
+
+		.feature-sub-main{
+			padding: 0;
+			margin: 0 auto;
+			float: none;
+		}
+		/*広げていくと均等にひろがらず右側に付いて行ってしまう*/
+
+		br{
+			display: none;
+		}
+
+
+		.profile-main{
+			width: 90%;
+		}
+
+		.box-title{
+			text-align: center;
+			padding-top: 20px;
+		}
+
+		.profile-sub-text{
+			text-align: center;
+		}
+
+		.box{
+			width: 100%;
+		}
+
+		.profile-image{
+			margin-bottom: 20px;
+			margin: 0 auto;
+		}
+
+
+		.contact-main{
+			width: 90%;
+		}
+
+		.contact-box{
+			width: 100%;
+			text-align: center;
+		}
+
+		.contact-sns{
+			text-align: center;
+		}
+
+		.sub-text{
+			padding-bottom: 20px;
+		}
+
+		.contact-adress{
+			text-align: center;
+			margin: 0 auto;
+		}
+
+		.contact-object{
+
+		}
+
+		.contact-object-add{
+			padding: 0 8px;
+		}
+		.icon{
+			margin-left: 50px;
+		}
+}
